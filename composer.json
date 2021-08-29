@@ -1,0 +1,40 @@
+{
+    "name": "eelcol/laravel-tradetracker",
+    "description": "Laravel wrapper for the Tradetracker API",
+    "keywords": [
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^7|^8",
+        "illuminate/http": "^7|^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eelcol\\LaravelTradetracker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Eelcol\\LaravelTradetracker\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eelcol\\LaravelTradetracker\\TradetrackerServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.5",
+        "spatie/laravel-settings": "^2.0"
+    }
+}

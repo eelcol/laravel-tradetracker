@@ -3,7 +3,7 @@
 namespace Eelcol\LaravelTradetracker\Support\Connectors;
 
 use Carbon\Carbon;
-use Eelcol\LaravelTradedoubler\Exceptions\TradetrackerBadCredentials;
+use Eelcol\LaravelTradetracker\Exceptions\TradetrackerBadCredentials;
 use Exception;
 use SoapClient;
 

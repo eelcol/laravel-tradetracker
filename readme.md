@@ -14,7 +14,7 @@ TRADETRACKER_SECRET=...
 ### Publish assets
 
 ```
-php artisan vendor:publish --tag=laravel-tradedoubler
+php artisan vendor:publish --tag=laravel-tradetracker
 ```
 
 Also run the migrations after publishing:

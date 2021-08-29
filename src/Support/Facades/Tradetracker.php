@@ -1,6 +1,6 @@
 <?php
 
-namespace Eelcol\LaravelTradedoubler\Support\Facades;
+namespace Eelcol\LaravelTradetracker\Support\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

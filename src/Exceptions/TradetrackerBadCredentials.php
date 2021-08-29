@@ -1,6 +1,6 @@
 <?php
 
-namespace Eelcol\LaravelTradedoubler\Exceptions;
+namespace Eelcol\LaravelTradetracker\Exceptions;
 
 use Exception;
 
